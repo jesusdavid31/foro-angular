@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+.pointer{
+    cursor: pointer;
+}
+
+.avatar_mask{
+    height: 40px;
+    width: 40px;
+    border-radius: 900px;
+    overflow: hidden;
+}
+
+.avatar_mask img{
+    height: 40px;
+}
+
+.avatar_mask_list{
+    height: 60px;
+    width: 60px;
+    border-radius: 900px;
+    overflow: hidden;
+}
+
+.avatar_mask_list img{
+    height: 60px;
+}
+
+.p-2 {
+    padding: 6.0rem !important;
+}
+
+.items{
+    color: white;
+}
+
+.card img{
+    height: 350px;
+}
+
+.form1{
+    height: max-content;
+}
+
+.form1 label {
+    color: white;
+}
+
+.prueba img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.prueba img:hover{
+    -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
